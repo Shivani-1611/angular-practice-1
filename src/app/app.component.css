@@ -1,8 +1,12 @@
 
 .container{
-    /* display:flex; */
-    /* justify-content: center;
-    align-items: center; */
+    padding:20px;
+    text-align: center;
+    height:2000px;
+}
+.btn{
+    width:130px;
+    margin:20px;
 }
 .lft{
     float:left;

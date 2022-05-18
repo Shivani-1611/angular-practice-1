@@ -21,4 +21,25 @@ export class AppComponent {
     console.log(e.target.value);
   }
   defaultVal="New";
+
+  isApproved = false;
+  numbers:any= [
+    'one',
+    'two',
+    'three',
+    'four',
+    'five',
+    'six',
+    'seven',
+    'eight',
+    'nine',
+    'ten'
+  ];
+  luckyNumber=0;
+  approve(status:any){
+    this.isApproved=status;
+
+  }
+
+  
 }

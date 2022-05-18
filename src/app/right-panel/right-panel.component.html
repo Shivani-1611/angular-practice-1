@@ -1,3 +1,18 @@
 <div class="rgh-panel">
-<p>right-panel works!</p>
+    <p>right-panel works!</p>
+    <input type="text" [(ngModel)]="iptTxt">
+    <p>{{iptTxt}}</p>
+
+    <br>
+    <button [disabled]="mkeBtnDisabled" (click)="doChk()"> Check Value</button>
+
+    <div class="container">
+        <div class="row"> 
+            <div class="col-md-6">
+                <p class="text-left">Hi there</p>
+                <button type="btn btn-primary">Click</button>
+            </div>
+     </div>
+     </div>
 </div>
+
