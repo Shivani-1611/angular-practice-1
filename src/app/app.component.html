@@ -1,6 +1,31 @@
 
-<app-header></app-header>
-<router-outlet></router-outlet>
-<app-left-panel></app-left-panel>
-<app-right-panel></app-right-panel>
+
+
+<!-- <router-outlet></router-outlet> -->
+
+<div class="container">
+  <app-header></app-header>
+  <div class="lft"><app-left-panel></app-left-panel></div>
+  <div class="bdy">
+  <h1>Data Binding</h1><br>
+  <h2>String interpolation</h2><br>
+  <span>My name is {{firstName}}</span>
+    <hr>
+  <h2> Property Binding</h2>
+ <img [src]="imagePath" alt="" height="100px" width="200px">
+ <p [innerText]="lastName"></p>
+
+ <hr>
+ <h2>Event Binding</h2>
+    <input type="text" (input)="passValueToFunc($event)">
+
+  <h2>Two way data Binding</h2>
+    <input type="text" [(ngModel)]="defaultVal" />
+    <span>{{defaultVal}}</span>
+  
+</div>
+<div class="rht"><app-right-panel></app-right-panel></div>
 <app-footer></app-footer>
+</div>
+
+

@@ -1,3 +1,9 @@
 <div class="lft-panel">
+
 <p>left-panel works!</p>
+<input type="text" [(ngModel)]="supVal" >
+<span>{{supVal}}</span>
+
+
+<button [disabled]="isBtnDisabled" (click)="checkForm()"> Check </button>
 </div>

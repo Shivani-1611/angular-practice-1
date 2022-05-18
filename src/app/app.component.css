@@ -1,0 +1,23 @@
+
+.container{
+    /* display:flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+.lft{
+    float:left;
+}
+.rht{
+    float:right;
+}
+.bdy{
+    
+    display:inline-block;
+    text-align: center;
+    justify-content: center;
+}
+span{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
